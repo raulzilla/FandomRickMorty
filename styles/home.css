@@ -1,3 +1,7 @@
+header {
+  background-color: var(--primary);
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -13,3 +17,10 @@ ul {
 .item {
   list-style: none;
 }
+
+.item a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+@import url(./root.css);
