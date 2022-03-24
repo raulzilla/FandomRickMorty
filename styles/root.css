@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&display=swap');
 :root {
- --primary: #01b0c5;
- --secondary: #faf073;
- --success: #318a42;
- --danger: #d12533;
- --warning: #e8842a;
- --info: #3c77bd;
- --light: #ffffff;
- --dark: #000000;
+/* font */
+  --font-heading: "Bungee";
+  --font-text: "Archivo Black";
+
+/* color */
+  --primary: #01b0c5;
+  --secondary: #faf073;
+  --success: #318a42;
+  --danger: #d12533;
+  --warning: #e8842a;
+  --info: #3c77bd;
+  --light: #ffffff;
+  --dark: #000000;
 }

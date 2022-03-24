@@ -1,3 +1,7 @@
+body {
+  padding: 120px 100px 120px 100px;
+}
+
 header {
   background-color: var(--primary);
 }
@@ -21,6 +25,27 @@ ul {
 .item a {
   color: var(--light);
   text-decoration: none;
+}
+
+section {
+  border: 1px solid red;
+  width: 550px;
+  height: 340px;
+  margin-top: 100px;
+}
+
+article {
+  padding: 0 0 0 50px;
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-size: 1em;
+}
+
+.texto {
+  font-family: var(--font-text);
+  font-size: 10px; 
 }
 
 @import url(./root.css);
