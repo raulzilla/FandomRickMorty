@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
 :root {
 /* font */
   --font-heading: "Bungee";
@@ -11,10 +13,4 @@
   --info: #3c77bd;
   --light: #ffffff;
   --dark: #000000;
-}
-
-/* font */
-@font-face {
-  font-family: "Bungee", cursive;
-  src: url("./../assets/fonts/Bungee-Regular.ttf")
 }
