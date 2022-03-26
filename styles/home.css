@@ -4,16 +4,19 @@ body {
 
 header {
   background-color: var(--primary);
+  border-radius: 10px 10px 0 0;
 }
 
 nav {
   display: flex;
   justify-content: center;
+  height: 52px;
 }
 
 ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 0 40px 0 40px;
 }
@@ -46,6 +49,19 @@ h1 {
 .texto {
   font-family: var(--font-text);
   font-size: 10px; 
+}
+
+.logo { 
+  width: 32px;
+  border-radius: 50%;
+}
+
+main {
+  background: url("./../assets/image/background.svg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @import url(./root.css);
