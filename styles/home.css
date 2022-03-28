@@ -23,4 +23,8 @@ ul {
   text-decoration: none;
 }
 
+h1 {
+  font-family: "Bungee";
+}
+
 @import url(./root.css);
