@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&display=swap');
 :root {
 /* font */
   --font-heading: "Bungee";
+  --font-text: "Archivo Black";
 
 /* color */
   --primary: #01b0c5;

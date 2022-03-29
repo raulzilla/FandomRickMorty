@@ -43,4 +43,9 @@ h1 {
   font-size: 1em;
 }
 
+.texto {
+  font-family: var(--font-text);
+  font-size: 10px; 
+}
+
 @import url(./root.css);
