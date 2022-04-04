@@ -4,16 +4,19 @@ body {
 
 header {
   background-color: var(--primary);
+  border-radius: 10px 10px 0 0;
 }
 
 nav {
   display: flex;
   justify-content: center;
+  height: 52px;
 }
 
 ul {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 0 40px 0 40px;
 }
@@ -27,15 +30,31 @@ ul {
   text-decoration: none;
 }
 
-section {
-  border: 1px solid red;
-  width: 550px;
-  height: 340px;
-  margin-top: 100px;
+main {
+  display: flex;
+  background: url("./../assets/image/background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
 }
 
-article {
+section {
+  width: 500px;
+  position: relative;
+}
+
+.card-one {
   padding: 0 0 0 50px;
+  color: var(--primary);
+  background-image: linear-gradient(to right, transparent 0% 10%, var(--light) 5% 100%);
+}
+
+.card-second img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 250px;
 }
 
 h1 {
@@ -46,6 +65,17 @@ h1 {
 .texto {
   font-family: var(--font-text);
   font-size: 10px; 
+}
+
+.logo { 
+  width: 32px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: var(--primary);
+  border-radius: 0 0 10px 10px;
+  height: 52px;
 }
 
 @import url(./root.css);
