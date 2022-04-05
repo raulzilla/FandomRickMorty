@@ -39,15 +39,34 @@ main {
   background-clip: border-box;
 }
 
+.rick-morty-card {
+  width: 250px;
+}
+
 section {
   width: 500px;
   position: relative;
 }
 
 .card-one {
-  padding: 0 0 0 50px;
   color: var(--primary);
   background-image: linear-gradient(to right, transparent 0% 10%, var(--light) 5% 100%);
+}
+
+.card-one div p {
+  padding: 0 0 0 50px;
+}
+
+.card-one div img {
+  padding: 0 0 0 25px;
+}
+
+.card-one:last-child {
+  padding: 0 0 0 50px;
+}
+
+.card-one h1 {
+  padding: 0 0 0 50px;
 }
 
 .card-second img {
@@ -60,9 +79,10 @@ section {
 ul.sub-title {
   display: flex;
   list-style: none;
-  padding: 0 0 0 50px;
   background-color: var(--primary);
   color: var(--light);
+  padding: 0;
+  margin-top: 0;
 }
 
 h1 {
@@ -72,7 +92,13 @@ h1 {
 
 .texto {
   font-family: var(--font-text);
-  font-size: 10px; 
+  font-size: .8em; 
+  margin: 0;
+  line-height: 1.4em;
+}
+
+.card-information {
+  display: inline-flex;
 }
 
 .logo { 
