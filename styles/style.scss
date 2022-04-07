@@ -1,8 +1,8 @@
 body {
   height: 100vh;
   padding: 120px 100px 120px 100px;
-  background: rgb(34,193,195);
-  background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(6,146,132,1) 66%, rgba(2,139,123,1) 100%);
+  background: var(--primary);
+  background: linear-gradient(45deg, var(--primary) 0%, var(--terciary) 66%, var(--terciary) 100%);
 
   > div {
     box-shadow: -4px -3px 89px 10px rgba(0,0,0,0.3);
@@ -25,4 +25,18 @@ ul {
 .item a {
   color: var(--light);
   text-decoration: none;
+}
+
+.padding-main {
+  padding: 0 0 0 45px;
+}
+
+p {
+  margin: 0;
+}
+
+.texto {
+  font-family: var(--font-text);
+  font-size: .8em; 
+  line-height: 1.5em;
 }

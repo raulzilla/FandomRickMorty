@@ -1,35 +1,3 @@
-body {
-  padding: 120px 100px 120px 100px;
-}
-
-header {
-  background-color: var(--primary);
-  border-radius: 10px 10px 0 0;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  height: 52px;
-}
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0 40px 0 40px;
-}
-
-.item {
-  list-style: none;
-}
-
-.item a {
-  color: var(--light);
-  text-decoration: none;
-}
-
 main {
   display: flex;
   background: url("./../../assets/image/background.svg");
@@ -37,48 +5,63 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box;
-}
-.rick-morty-card {
-  width: 250px;
-}
-
-section {
-  width: 500px;
   position: relative;
-}
+  min-height: 550px;
+  
+  section {
+    width: 550px;
 
-.card-one {
-  padding: 0 0 0 50px;
-  color: var(--primary);
-  background-image: linear-gradient(to right, transparent 0% 10%, var(--light) 5% 100%);
-}
+    &:first-child {
+      z-index: 1;
+    }
 
-.card-second img {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 250px;
-}
+    .card-history {
+      padding: 0 0 0 15px;
+      background-image: linear-gradient(to right, transparent 0% 10%, var(--light) 5% 100%);
 
-h1 {
-  font-family: var(--font-heading);
-  font-size: 1em;
-}
+      h1 {
+        font-family: var(--font-heading);
+        color: var(--primary-dark);
+        font-size: 1.5em;
+        padding-top: 5px;
+        letter-spacing: 2px;
+        text-align: center;
+        padding: 5px 0 0 40px;
+      }
+      
+      .texto {
+        font-size: .8em;
+        color: var(--dark);
+        padding-bottom: 10px;
+      }
 
-.texto {
-  font-family: var(--font-text);
-  font-size: 10px; 
-}
+      div .card-information {
+        display: inline-flex;
 
-.logo { 
-  width: 32px;
-  border-radius: 50%;
-}
+        .rick-morty-card {
+          width: 250px;
+        }
 
-footer {
-  background-color: var(--primary);
-  border-radius: 0 0 10px 10px;
-  height: 52px;
-}
+        dl {
+          dt{
+            display: inline-block;
+          }
 
-@import url(./root.css);
+          dd {
+            display: inline;
+            margin: 0;
+            color: var(--gray);
+          }
+        }
+      }
+    }
+
+    .background-main img {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 250px;
+      z-index: 0;
+    }    
+  }
+}
