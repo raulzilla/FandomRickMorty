@@ -32,11 +32,14 @@ ul {
 
 main {
   display: flex;
-  background: url("./../assets/image/background.svg");
+  background: url("./../../assets/image/background.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box;
+}
+.rick-morty-card {
+  width: 250px;
 }
 
 section {

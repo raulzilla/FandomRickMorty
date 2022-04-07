@@ -1,0 +1,15 @@
+header {
+  background-color: var(--primary);
+  border-radius: 10px 10px 0 0;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    height: 52px;
+
+    .logo { 
+      width: 32px;
+      border-radius: 50%;
+    }
+  }
+}

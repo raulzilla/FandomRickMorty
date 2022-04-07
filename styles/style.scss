@@ -1,0 +1,28 @@
+body {
+  height: 100vh;
+  padding: 120px 100px 120px 100px;
+  background: rgb(34,193,195);
+  background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(6,146,132,1) 66%, rgba(2,139,123,1) 100%);
+
+  > div {
+    box-shadow: -4px -3px 89px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 40px 0 40px;
+}
+
+.item {
+  list-style: none;
+}
+
+.item a {
+  color: var(--light);
+  text-decoration: none;
+}
