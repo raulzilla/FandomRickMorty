@@ -57,6 +57,14 @@ section {
   width: 250px;
 }
 
+ul.sub-title {
+  display: flex;
+  list-style: none;
+  padding: 0 0 0 50px;
+  background-color: var(--primary);
+  color: var(--light);
+}
+
 h1 {
   font-family: var(--font-heading);
   font-size: 1em;
