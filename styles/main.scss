@@ -42,19 +42,41 @@ main {
           width: 250px;
         }
 
-        dl {
-          dt{
-            display: inline-block;
+        > div {
+          width: 280px;
+
+          p {
+            text-align: center;
           }
 
+          dl {
+            margin: 20px;
+
+            dt{
+              display: inline-block;
+              color: var(--gray)
+            }
+          }
           dd {
             display: inline;
             margin: 0;
-            color: var(--gray);
+            color: var(--terciary);
           }
         }
       }
     }
+
+    .sub-title {
+      margin: 0px;
+      width: 455px;
+      background-color: var(--primary);
+      list-style: none;
+
+      .item-main a {
+        text-decoration: none;
+      }
+    }
+
 
     .background-main img {
       position: absolute;
