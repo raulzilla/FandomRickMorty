@@ -1,35 +1,3 @@
-body {
-  padding: 120px 100px 120px 100px;
-}
-
-header {
-  background-color: var(--primary);
-  border-radius: 10px 10px 0 0;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  height: 52px;
-}
-
-ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0 40px 0 40px;
-}
-
-.item {
-  list-style: none;
-}
-
-.item a {
-  color: var(--light);
-  text-decoration: none;
-}
-
 main {
   display: flex;
   background: url("./../assets/image/background.svg");
@@ -39,10 +7,14 @@ main {
   background-clip: border-box;
 }
 
+.logo { 
+  width: 32px;
+  border-radius: 50%;
+}
+
 .rick-morty-card {
   width: 250px;
 }
-
 section {
   width: 500px;
   position: relative;
@@ -68,7 +40,6 @@ section {
 .card-one h1 {
   padding: 0 0 0 50px;
 }
-
 .card-second img {
   position: absolute;
   bottom: 0;
@@ -98,18 +69,5 @@ h1 {
 }
 
 .card-information {
-  display: inline-flex;
+  display: inline-flex; 
 }
-
-.logo { 
-  width: 32px;
-  border-radius: 50%;
-}
-
-footer {
-  background-color: var(--primary);
-  border-radius: 0 0 10px 10px;
-  height: 52px;
-}
-
-@import url(./root.css);

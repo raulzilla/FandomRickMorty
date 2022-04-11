@@ -1,0 +1,22 @@
+body {
+  padding: 120px 100px 120px 100px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 40px 0 40px;
+}
+
+.item {
+  list-style: none;
+}
+
+.item a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+@import url(./root.css);
