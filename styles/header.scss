@@ -7,13 +7,21 @@ header {
     justify-content: center;
     height: 52px;
 
-    .logo { 
-      width: 32px;
-      border-radius: 50%;
-    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 40px 0 40px;
+      
+      .logo { 
+        width: 32px;
+        border-radius: 50%;
+      }
 
-    .texto {
-      font-size: 1em;
+      .text {
+        font-size: 1em;
+      }
     }
   }
 }

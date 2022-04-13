@@ -1,8 +1,6 @@
 body {
   height: 100vh;
   padding: 120px 100px 120px 100px;
-  background: var(--primary);
-  background: linear-gradient(45deg, var(--primary) 0%, var(--terciary) 66%, var(--terciary) 100%);
 
   > div {
     box-shadow: -4px -3px 89px 10px rgba(0,0,0,0.3);
@@ -10,12 +8,13 @@ body {
   }
 }
 
-ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  padding: 0 40px 0 40px;
+.background {
+  background: var(--primary);
+  background: linear-gradient(45deg, var(--primary) 0%, var(--terciary) 66%, var(--terciary) 100%);
+}
+
+.background-main {
+  background-image: linear-gradient(to right, transparent 0% 7.1%, var(--primary) 5% 100%);
 }
 
 .item {
@@ -35,7 +34,7 @@ p {
   margin: 0;
 }
 
-.texto {
+.text {
   font-family: var(--font-text);
   font-size: .8em; 
   line-height: 1.5em;
