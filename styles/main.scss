@@ -9,7 +9,7 @@ main {
   min-height: 550px;
   
   section {
-    width: 435px;
+    width: 550px;
 
     &:first-child {
       z-index: 1;
@@ -70,7 +70,7 @@ main {
     }
 
     .sub-title {
-      width: 435px;
+      width: 495px;
       height: 200px;
       margin: 0;
       list-style: none;
@@ -85,11 +85,21 @@ main {
         align-items: center;
         justify-content: center;
         padding: 10px 0 0 0;
+
+        .item-main {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          user-select: none;
+          cursor: pointer;
+        }
       
         .logo-main {
           width: 50px;
           height: 50px;
-          border-radius: 5px;
+          border-radius: 8px;
+          padding: 5px;
         }
       }
     }
