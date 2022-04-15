@@ -1,11 +1,12 @@
 body {
   height: 100vh;
   padding: 120px 100px 120px 100px;
+}
 
-  > div {
-    box-shadow: -4px -3px 89px 10px rgba(0,0,0,0.3);
-    border-radius: 10px;
-  }
+body > div {
+  -webkit-box-shadow: -4px -3px 89px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: -4px -3px 89px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 
 .background {
@@ -14,6 +15,7 @@ body {
 }
 
 .background-main {
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(5%, var(--primary)));
   background-image: linear-gradient(to right, transparent 0% 7.4%, var(--primary) 5% 100%);
 }
 
@@ -36,6 +38,13 @@ p {
 
 .text {
   font-family: var(--font-text);
-  font-size: .8em; 
+  font-size: .8em;
   line-height: 1.5em;
+}
+
+@media only screen and (max-width: 576px) {
+  .padding-main {
+    padding: 0 10px 0 10px;
+    text-align: justify;
+  }
 }
