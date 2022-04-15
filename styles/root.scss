@@ -1,18 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&display=swap');
+
 :root {
 /* font */
   --font-heading: "Bungee";
-  --font-text: "Archivo Black";
+  --font-text: "PT Sans";
 
 /* color */
   --primary: #01b0c5;
+  --primary-dark: #50BFB2;
   --secondary: #faf073;
+  --terciary: #028B7B;
   --success: #318a42;
   --danger: #d12533;
   --warning: #e8842a;
   --info: #3c77bd;
   --light: #ffffff;
   --dark: #000000;
+  --gray: #C4C4C4;
 }

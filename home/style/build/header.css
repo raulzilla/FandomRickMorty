@@ -1,0 +1,67 @@
+header {
+  background-color: var(--primary);
+  border-radius: 10px 10px 0 0;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 52px;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 0 40px 0 40px;
+}
+
+header nav ul .logo {
+  width: 32px;
+  border-radius: 50%;
+}
+
+header nav ul .text {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 576px) {
+  ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  ul li:not(:first-child) {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  ul li:not(:first-child) {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  ul {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  ul li:not(:first-child) {
+    display: block;
+  }
+}
