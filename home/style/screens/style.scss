@@ -1,6 +1,7 @@
 body {
-  height: 100vh;
-  padding: 120px 100px 120px 100px;
+  height: 200%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
   > div {
     box-shadow: -4px -3px 89px 10px rgba(0,0,0,0.3);
@@ -9,8 +10,8 @@ body {
 }
 
 .background {
-  background: var(--primary);
-  background: linear-gradient(45deg, var(--primary) 0%, var(--terciary) 66%, var(--terciary) 100%);
+  background-color: var(--primary);
+  background-image: linear-gradient(45deg, var(--primary) 0%, var(--terciary) 66%, var(--terciary) 100%);
 }
 
 .background-main {
@@ -41,8 +42,56 @@ p {
 }
 
 @media only screen and (max-width: 576px) {
+  body {
+    padding: 30px 15px;
+  }
+
   .padding-main {
     padding: 0 10px 0 10px;
     text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  body {
+    padding: 30px 15px;
+  }
+
+  .padding-main {
+    padding: 0 10px 0 15px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 30px 15px;
+  }
+
+  .padding-main {
+    padding: 0 10px 0 15px;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    padding: 30px 60px;
+  }
+
+  .padding-main {
+    padding: 0 0 0 45px;
+    text-align: start;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    padding: 30px 120px 30px 120px;
+  }
+
+  .padding-main {
+    padding: 0 0 0 45px;
+    text-align: start;
   }
 }
