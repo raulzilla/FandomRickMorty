@@ -151,9 +151,8 @@ main section .background-main-img img {
   z-index: -1;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (min-width: 375px) {
   main {
-    height: 810px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -162,7 +161,7 @@ main section .background-main-img img {
             align-items: center;
   }
   main section {
-    width: 380px;
+    width: 320px;
   }
   main section:last-child {
     display: none;
@@ -189,7 +188,7 @@ main section .background-main-img img {
   }
   main section .card-history div .sub-title {
     background: var(--primary);
-    width: 340px;
+    width: 280px;
     margin-bottom: 10px;
     padding: 0 20px;
   }
